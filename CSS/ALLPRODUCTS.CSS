@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: hidden;
+    background-color: black !important;
+   
+}
+.nav_black{
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+   
+}
+.email{
+    
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: grey;
+    text-decoration: none;
+    width: 100%;
+}
+.newsletter{
+    padding-bottom: 140px;
+}
+.subscribe{
+    border: 1px solid ;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 2px;
+    color: white;
+    background-color: rgb(48, 193, 241);
+    padding-inline: 30px;
+}
+.subscribe:hover{
+    background-color:red;
+}
+
+
+.logo{
+    margin-top: -5px;
+    width: 100px;
+    height: 60px;
+}
+::placeholder{
+    color: white;
+}
+.search input{
+    border: none;
+    width: 90%;
+    background-color: rgb(48, 193, 241);
+    
+}
+.search {
+    padding: 3px;
+    padding-left: 6px;
+    border-radius: 15px;
+    background-color: rgb(48, 193, 241);
+    
+}
+.nav{
+    color: grey;
+}
+.nav:hover{
+    color:red;
+
+}
+.space{
+    margin-top: 100px;
+}
+.toalign{
+    text-align: justify;
+}
+.shop_now{
+    border: 1px solid ;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(48, 193, 241);
+    padding-inline: 60px;
+}
+
+.product_featured{
+    width: 240px;
+   
+    
+   
+}
+.product_featured:hover{
+    scale: 1.07;
+}
+.messi_jersey{
+    
+    width: 240px;
+    height: 300px;
+   
+   
+}
+.messi_jersey_img{
+    width: 100%;
+    height: 300px;
+}
+
+.product_footer{
+background-color:white;
+color: black;
+}
+.over{
+    text-decoration: line-through;
+}
+
+
+.product_featured_boot{
+    width: 306px;
+   
+    
+   
+}
+.boot_jersey{
+    
+    width: 306px;
+    height: 220px;
+   
+   
+}
+.boot_jersey_img{
+    width: 100%;
+    height: 220px;
+}
+
+.ball_featured{
+    width: 240px;
+   
+    
+   
+}
+.ball_jersey{
+    
+    width: 240px;
+    height: 240px;
+   
+   
+}
+.ball_jersey_img{
+    width: 100%;
+    height: 240px;
+}
+.social_media{
+    width:240px;
+    height: 300px;
+}
+.social_media_img{
+    width:240px;
+    height: 300px;
+}
+
+.email{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: grey;
+    text-decoration: none;
+    width: 100%;
+}
+.newsletter{
+    padding-bottom: 140px;
+}
+.subscribe{
+    border: 1px solid ;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 2px;
+    color: white;
+    background-color: rgb(48, 193, 241);
+    padding-inline: 30px;
+}
+.subscribe:hover{
+    background-color:red;
+}
+
+.spa__ce{
+    margin-top: 300px;
+}
+
+.add_cart{
+
+    background-color:blue !important;
+    padding: 8px;
+  color: white;
+    text-decoration: none;
+    border:0px solid;
+    background: blue;  
+}
+
+.box{
+    margin-top: 60px;
+    background: url(../IMAGES/sports_shop2_new.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 610px;
+}
+
+.slideUp {
+    animation-name: slideUp;
+    animation-name: slideUp;
+    animation-duration: 2.2s;
+
+    visibility: visible;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+#hide{
+    display: none;
+}
+#close{
+    display: none;
+}
+

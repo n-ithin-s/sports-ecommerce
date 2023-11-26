@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../CSS/CHECKOUT.CSS">
+    <script src="https://kit.fontawesome.com/3a84412a29.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="home  ps-3 ps-lg-0">
+        <!--first row-->
+        <div class="nav_black shadow d-none d-lg-block w-100 top-0 ">
+        <div class="row mt-3 ">
+            <div class="col-lg-2 col-sm-12 d-flex justify-content-center ">
+                <img class="logo" src="../../IMAGES/sports-logo3-removebg-preview.png">
+            </div>
+    
+            <div class="col-lg-4 col-sm-12">
+                <div class="search  mt-2  ">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff; "></i>
+                    <input class="ms-2 " type="text" placeholder="Search for products, brands and more">
+                </div>
+            </div>
+    
+            <div class="col-lg-2 ">
+    
+            </div>
+    
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-2"><a class="nav small  text-decoration-none  " href="../HOME/HOME.HTML">HOME</a> </div>
+            </div>
+    
+            
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-2"><a class="nav small  text-decoration-none " href="../SHOP/ALLPRODUCTS.HTML">SHOP</a> </div>
+            </div>
+    
+            
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-2"><a class="nav small  text-decoration-none  " href="#">SALES</a> </div>
+            </div>
+    
+            
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-2"><a class="nav  small  text-decoration-none " href="../ABOUT US/ABOUTUS.HTML">ABOUT US</a> </div>
+            </div>
+    
+            
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-2"><a class="nav small  text-decoration-none " href="../CONTACTUS/contactUs..html">CONTACT</a> </div>
+            </div>
+    
+    
+        <div class="col-lg-auto col-sm-12">
+            <div class="mt-1">
+                <a href="../../HTML/CART/cart.html"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #a3a3a3;"></i></a>
+            </div>
+        </div>
+    
+    </div>
+        </div>
+    
+        <!--next nav-->
+        
+        <div class="nav_black shadow d-block d-lg-none w-100 top-0 ">
+            <div class="row mt-3 ">
+                <div class="col-lg-2 col-sm-12 d-flex align-items-center justify-content-between ">
+                    <img class="logo" src="../../IMAGES/sports-logo3-removebg-preview.png">
+                    <i class=" fa-solid fa-bars fa-lg  me-4 me-lg-0" style="color: #f1f2f4;" id="bar" onclick="fun8()"></i>
+                    <i class="fa-solid fa-x  me-4 me-lg-0" style="color: #ffffff;" id="close" onclick="fun9()"></i>
+                </div>
+                
+                <div class="" id="hide">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="search  mt-2  ">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff; "></i>
+                        <input class="ms-2 " type="text" placeholder="Search for products, brands and more">
+                    </div>
+                </div>
+        
+                <div class="col-lg-2 ">
+        
+                </div>
+        
+                <div class="col-lg-auto col-sm-12">
+                    <div class="mt-2"><a class="nav small  text-decoration-none  " href="../HOME/HOME.HTML">HOME</a> </div>
+                </div>
+        
+                
+                <div class="col-lg-auto col-sm-12">
+                    <div class="mt-2"><a class="nav small  text-decoration-none " href="../SHOP/ALLPRODUCTS.HTML">SHOP</a> </div>
+                </div>
+        
+                
+                <div class="col-lg-auto col-sm-12">
+                    <div class="mt-2"><a class="nav small  text-decoration-none  " href="#">SALES</a> </div>
+                </div>
+        
+                
+                <div class="col-lg-auto col-sm-12">
+                    <div class="mt-2"><a class="nav  small  text-decoration-none " href="../ABOUT US/ABOUTUS.HTML">ABOUT US</a> </div>
+                </div>
+        
+                
+                <div class="col-lg-auto col-sm-12">
+                    <div class="mt-2"><a class="nav small  text-decoration-none " href="../CONTACTUS/contactUs..html">CONTACT</a> </div>
+                </div>
+        
+        
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-1">
+                    <a href="../../HTML/CART/cart.html"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #a3a3a3;"></i></a>
+                </div>
+            </div>
+                </div>  <!--for hide-->
+        
+        </div>
+            </div>
+<!--NEXT ROW-->
+
+     <div class="space">
+    <div class="row text-white mt-5  ">
+        <div class="col-lg-12 d-flex justify-content-center fs-2  ">
+          <div>  <i class="fa-solid fa-lock " style="color: #515155;"></i></div>
+          <div class="ms-3 ">  CHECKOUT</div>
+        </div>
+    </div>
+    </div>
+
+    <div class="row mt-5 d-none d-lg-flex ">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-auto"></div>
+        <div class="col-lg-auto"></div>
+        <div class="col-lg-auto"></div>
+        <div class="col-lg-auto"></div>
+        
+        <div class="col-lg-auto col-sm-1">
+            <i class="fa-solid fa-circle" style="color: #f1c209;"></i>
+            
+        </div>
+          
+        <div class="col-lg-2 border-bottom border-white border-2 col-sm-1">
+           
+        </div>
+        
+        <div class="col-lg-auto col-sm-1">
+            <i class="fa-solid fa-circle" style="color: #f7f9fc;"></i>
+           
+        </div>
+        <div class="col-lg-2 border-bottom border-white border-2">
+           
+        </div>
+        <div class="col-lg-auto col-sm-1">
+            <i class="fa-solid fa-circle" style="color: #f7f9fc;"></i>
+           
+        </div>
+          
+    </div>
+
+    <div class="row mt-3 text-white d-none d-lg-flex  ">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-auto"></div>
+        <div class="col-lg-auto"></div>
+        <div class="col-lg-auto"></div>
+      
+
+        <div class="col-lg-auto col-sm-4">
+            SHIPPING DETAILS
+        </div>
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-auto"></div>
+        <div class="col-lg-auto  col-sm-4 ">
+            PAYMENT
+        </div>
+
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-auto"></div>
+      
+        <div class="col">
+            REVIEW & PLACE ORDER
+        </div>
+       
+
+    </div>
+
+
+    <!--checkout-->
+
+    <div class="row mt-5">
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col fs-5 fw-bold text-white ">
+            Billing Details
+        </div>
+
+    </div>
+
+        <!--form-->
+
+    <form id="form">
+    <div class="row mt-3">
+        <!--first half of checkout-->
+
+        <div class="col-lg-1">
+
+        </div>
+
+
+    
+        <div class="col-lg-5 text-white  ">
+            <div class="row">
+                <div class="col-lg-6">
+                    First Name
+                    <div class="text-danger small " id="demo1">**This field is required**</div>
+                    <input class="firstname form-control p-0 mt-2 " type="text"  id="first" >
+                    
+                </div>
+                <div class="col-lg-6 " >
+                    Last Name
+                    <div class="text-danger small " id="demo2">**This field is required**</div>
+                    <input class="lastname form-control p-0 mt-2 " type="text" id="last" >
+                </div>
+            </div>
+
+          <!--  <div class="row mt-2 ">
+                <div class="col-lg-6">
+                    <div class="text-red small " id="demo1">**This field is required**</div>
+                    <input class="firstname form-control p-0" type="text"  id="first" >
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-red small" id="demo2">**This field is required**</div>
+                    <input class="lastname form-control p-0" type="text" id="name" >
+                </div>
+            </div> -->
+
+            <div class="row mt-2 ">
+                <div class="col-lg-7" >
+                    Country/Region
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-12 ">
+                    <div class="region ">
+                        <div class="text-danger  small " id="demo8">**This field is required**</div>
+                    <select class="form-select p-0" id="sele">
+                        <option></option>
+                        <option>India</option>
+                        <option>South Africa</option>
+                        <option>New ZEALAND</option>
+                        <option>Australia</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-7" >
+                    Address
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-12">
+                    <div class="text-danger  small " id="demo3">**This field is required**</div>
+                <input class="form-control p-0" type="text" id="add">
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-7" >
+                    Postcode/Zip
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-12">
+                    <div class="text-danger  small " id="demo4">**This field is required**</div>
+                <input class="form-control p-0" type="text" id="post">
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-7" >
+                    Town/City
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-12">
+                    <div class="text-danger  small " id="demo5">**This field is required**</div>
+                <input class="form-control p-0" type="text" id="city">
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-7">
+                    Phone
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-12">
+                    <div class="text-danger  small " id="demo6">**This field is required**</div>
+                <input class="form-control p-0" type="text"  id="phone">
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-7">
+                    Email Address
+                </div>
+            </div>
+
+            <div class="row mt-2 ">
+                <div class="col-lg-12">
+                    <div class="text-danger  small " id="demo7">**This field is required**</div>
+                <input class="form-control p-0 " type="text" id="email_add">
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col fs-5 fw-bold ">
+                    Addition Information
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-7">
+                    Order Notes(optional)
+                </div>
+            </div>
+
+
+            <div class="row mt-2 ">
+                <div class="col-lg-12">
+                <input class="form-control p-0 " type="text">
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col">
+                    <div >
+                     <input type="button" id="sub" value="Place Order" class="pe-2 ps-2 bg-primary ">
+                     </div>
+                </div>
+            </div>
+      
+
+        </div>
+
+        <!--second half-->
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col text-black ">
+            <div class="bg-secondary  p-5 mt-4">
+
+
+                <div class="row">
+                    <div class="col fs-2 fw-bold ">YOUR ORDER</div>
+                </div>
+
+                <div class="row mt-3 ">
+                    <div class="col-lg-8  fw-bold ">
+                        PRODUCT
+                    </div>
+                    <div class="col  fw-bold ">
+                        SUBTOTAL
+                    </div>
+                </div>
+
+                <div class="row mt-4 ">
+                    <div class="col-lg-8  ">
+                        NIKE
+                    </div>
+                    <div class="col  ">
+                        $286.00
+                    </div>
+                </div>
+
+                <div class="row mt-3 ">
+                    <div class="col border-bottom border-dark">
+
+                    </div>
+                </div>
+
+                <div class="row mt-3 ">
+                    <div class="col-lg-8 ">
+                        PUMA
+                    </div>
+                    <div class="col  ">
+                        $286.00
+                    </div>
+                </div>
+
+                
+                <div class="row mt-3 ">
+                    <div class="col border-bottom border-dark">
+
+                    </div>
+                </div>
+
+                
+                <div class="row mt-5 fw-bold  ">
+                    <div class="col-lg-8 ">
+                        TOTAL
+                    </div>
+                    <div class="col  ">
+                        $572.00
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="col-lg-1">
+
+        </div>
+    </div>
+    </form>
+    <!--form close-->
+
+
+    <!--last rows-->
+
+
+    <div class="space">
+        <div class="newsletter  bg-secondary ">
+        
+        <div class="row pt-5 ">
+            <div class="col-lg-1 col-sm-12">
+        
+            </div>
+            <div class="col fs-1  ">
+               <div class="mt-5 ">JOIN OUR NEWSLETTER</div>
+            </div>
+        </div>
+        
+        <div class="row mt-5 ">
+            <div class="col-lg-1 ">
+        
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="">
+                    <input  class="email bg-secondary " type="email" placeholder="YOUR EMAIL">
+                </div>
+            </div>
+        
+            <div class="col">
+                <div class="mt-2 mt-lg-0 ">
+                    <a class="subscribe fs-5 fw-bold text-dark " href="#"><small >Subscribe</small></a>
+                 </div>
+            </div>
+        </div>
+        
+        <div class="row mt-3 ">
+            <div class="col-lg-1 ">
+        
+            </div>
+        
+            <div class="col d-flex ">
+                <div class="me-4 "><i class="fa-brands fa-facebook fa-lg"  style="color: #000205;"></i></div>
+                <div class="me-4 "><i class="fa-brands fa-square-instagram fa-lg" style="color: #01060e;"></i></div>
+                <div class="me-4 "><i class="fa-brands fa-twitter fa-lg" style="color: #000000;"></i></div>
+            </div>
+        </div>
+        </div>
+        </div>
+        
+        <div class="footer mt-4 pb-4 ">
+        <div class="row  text-white ">
+            <div class="col-lg-1">
+        
+            </div>
+            <div class="col text-white ">
+               <small> <i class="fa-solid fa-copyright" style="color: #f7f7f8;"></i>
+                2023 All Rights Reserved
+               </small>
+            </div>
+        
+            <div class="col-lg-6">
+        
+            </div>
+            <div class="col-lg-auto col-sm-12">
+                <a href="#" class="text-decoration-none text-white "> Help&Info</a>
+            </div>
+            <div class="col-lg-auto col-sm-12">
+                <a href="#"  class="text-decoration-none text-white "> Terms&Privacy</a>
+            </div>
+            <div class="col-lg-auto ">
+        
+            </div>
+        
+        </div>
+        </div>
+        
+        
+        </div>
+        
+        <script src="../../JS/checkout.js"></script>
+        </body>
+        </html>

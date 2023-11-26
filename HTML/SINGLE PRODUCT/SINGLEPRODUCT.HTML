@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../CSS/SINGLEPRODUCT.CSS">
+    <script src="https://kit.fontawesome.com/3a84412a29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="home  ps-3 ps-lg-0">
+    <!--first row-->
+    <div class="nav_black shadow d-none d-lg-block w-100 top-0 ">
+    <div class="row mt-3 ">
+        <div class="col-lg-2 col-sm-12 d-flex justify-content-center ">
+            <img class="logo" src="../../IMAGES/sports-logo3-removebg-preview.png">
+        </div>
+
+        <div class="col-lg-4 col-sm-12">
+            <div class="search  mt-2  ">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff; "></i>
+                <input class="ms-2 " type="text" placeholder="Search for products, brands and more">
+            </div>
+        </div>
+
+        <div class="col-lg-2 ">
+
+        </div>
+
+        <div class="col-lg-auto col-sm-12">
+            <div class="mt-2"><a class="nav small  text-decoration-none  " href="../HOME/HOME.HTML">HOME</a> </div>
+        </div>
+
+        
+        <div class="col-lg-auto col-sm-12">
+            <div class="mt-2"><a class="nav small  text-decoration-none " href="../SHOP/ALLPRODUCTS.HTML">SHOP</a> </div>
+        </div>
+
+        
+        <div class="col-lg-auto col-sm-12">
+            <div class="mt-2"><a class="nav small  text-decoration-none  " href="#">SALES</a> </div>
+        </div>
+
+        
+        <div class="col-lg-auto col-sm-12">
+            <div class="mt-2"><a class="nav  small  text-decoration-none " href="../ABOUT US/ABOUTUS.HTML">ABOUT US</a> </div>
+        </div>
+
+        
+        <div class="col-lg-auto col-sm-12">
+            <div class="mt-2"><a class="nav small  text-decoration-none " href="../CONTACTUS/contactUs..html">CONTACT</a> </div>
+        </div>
+
+
+    <div class="col-lg-auto col-sm-12">
+        <div class="mt-1">
+            <a href="../../HTML/CART/cart.html"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #a3a3a3;"></i></a>
+        </div>
+    </div>
+
+</div>
+    </div>
+
+    <!--next nav-->
+    
+    <div class="nav_black shadow d-block d-lg-none w-100 top-0 ">
+        <div class="row mt-3 ">
+            <div class="col-lg-2 col-sm-12 d-flex align-items-center justify-content-between ">
+                <img class="logo" src="../../IMAGES/sports-logo3-removebg-preview.png">
+                <i class=" fa-solid fa-bars fa-lg  me-4 me-lg-0" style="color: #f1f2f4;" id="bar" onclick="fun()"></i>
+                <i class="fa-solid fa-x  me-4 me-lg-0" style="color: #ffffff;" id="close" onclick="fun2()"></i>
+            </div>
+            
+            <div class="" id="hide">
+            <div class="col-lg-4 col-sm-12">
+                <div class="search  mt-2  ">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff; "></i>
+                    <input class="ms-2 " type="text" placeholder="Search for products, brands and more">
+                </div>
+            </div>
+    
+            <div class="col-lg-2 ">
+    
+            </div>
+    
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-2"><a class="nav small  text-decoration-none  " href="../HOME/HOME.HTML">HOME</a> </div>
+            </div>
+    
+            
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-2"><a class="nav small  text-decoration-none " href="../SHOP/ALLPRODUCTS.HTML">SHOP</a> </div>
+            </div>
+    
+            
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-2"><a class="nav small  text-decoration-none  " href="#">SALES</a> </div>
+            </div>
+    
+            
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-2"><a class="nav  small  text-decoration-none " href="../ABOUT US/ABOUTUS.HTML">ABOUT US</a> </div>
+            </div>
+    
+            
+            <div class="col-lg-auto col-sm-12">
+                <div class="mt-2"><a class="nav small  text-decoration-none " href="../CONTACTUS/contactUs..html">CONTACT</a> </div>
+            </div>
+    
+    
+        <div class="col-lg-auto col-sm-12">
+            <div class="mt-1">
+                <a href="../../HTML/CART/cart.html"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #a3a3a3;"></i></a>
+            </div>
+        </div>
+            </div>  <!--for hide-->
+    
+    </div>
+        </div>
+    
+
+ 
+<!--next row-->
+
+<div class="space">
+<div class="row">
+    <div class="col-lg-1"></div>
+    <!--first half-->
+
+    <div class="col-lg-5">
+        <div class="single_product bg-white  shadow " id="single_product">
+        
+            <div class="row">
+             
+           <div class="col-lg-auto ">
+            <div class="position_div ms-2 mt-3" onmouseover="funhover1()" id="hover_div1"><img id="img1" class="position_img" src="../../IMAGES/argentina-messi-jersey.webp"></div>
+            <div class="position_div mt-3 ms-2 " onmouseover="funhover2()" id="hover_div2"><img id="img2" class="position_img" src="../../IMAGES/pic_argentina_new_lightblue.webp" ></div>
+           </div>
+           
+            <div class="col-lg-5 ms-5 ">
+            <a href="../CART/cart.html" class="cart_product d-flex justify-content-center ">
+            <i class="fa-solid fa-cart-shopping mt-1 me-1 " style="color: #fcfcfd;"></i>ADD TO CART</a>
+            </div>
+
+            <div class="col-lg-5">
+                <a href="../CHECKOUT/CHECKOUT.HTML" class="buy_product d-flex justify-content-center ">
+                    <i class="fa-solid fa-bolt-lightning mt-1 me-1 " style="color: #f4f5f6;"></i>BUY NOW</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+     <!--second half-->
+     <div class="col-lg-auto  "></div>
+
+    <div class="col-lg-5">
+        <div class="d-flex flex-column text-white  ">
+            <div class="text-primary  fs-5 ">NIKE</div>
+            <div class="fs-5 mt-2 ">Men Typography Polyester T Shirt  (Multicolor, Pack of 1)</div>
+            <div class="text-success mt-1 ">special price</div>
+            <div class="d-flex mt-2 ">
+            <span class="fs-3">$286</span><span class="over ms-3 text-secondary mt-2 ">799</span>
+            <span class="text-success ms-1 mt-2 ">56% off</span>
+            </div>
+            <div class="d-flex ">
+            <a href="" class="rating text-success d-flex justify-content-center mt-2 "><span class="text-white text-decoration-none ">4.8<i class="fa-solid fa-star fa-xs ms-1 " style="color: #ffffff;"></i></span></a>
+            <span class="ms-2 mt-2 text-secondary ">2400 ratings and 500 reviews</span>
+            </div>
+
+            <div class="mt-5 d-flex ">
+                <div class="fw-bold ">color</div>
+                <div class="position_div ms-5 " onmouseover="funhover3()" id="hover_div3"><img id="img3" class="position_img" src="../../IMAGES/pic_argentina_blue_new.jpg"></div>
+
+            <div class="position_div ms-2" onmouseover="funhover4()" id="hover_div4"><img id="img4" class="position_img" src="../../IMAGES/pic_argentina_darkblue.webp" ></div>
+
+            <div class="position_div ms-2" onmouseover="funhover5()" id="hover_div5"><img id="img5" class="position_img" src="../../IMAGES/argentina-messi-jersey.webp" ></div>
+            </div>
+
+            <div class="mt-5 d-flex ">
+                <div class="fw-bold ">Size: </div>
+
+                <div class=" ms-5 border p-1 border-secondary  "> <i class="fa-solid fa-m " style="color: #fafcff;"></i></div>
+
+            <div class=" ms-3 border p-1 border-secondary "><i class="fa-solid fa-s" style="color: #ffffff;"></i></div>
+
+            <div class="ms-3 border p-1 border-secondary "><i class="fa-solid fa-l" style="color: #ffffff;"></i></div>
+
+            <div class="ms-3 border p-1 border-secondary ">
+                <i class="fa-solid fa-x" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-l" style="color: #ffffff;"></i>
+            </div>
+
+            </div>
+
+            <div class="mt-4 fw-bold ">Available Offers</div>
+            <div class="mt-3 ">
+                <i class="fa-solid fa-tag" style="color: #37c304;"></i>
+                Bank Offer10% Instant Discount on SBI Credit Card Txns, up to ₹1500, on orders of ₹5,000 and aboveT&C
+            </div>
+            <div class="mt-3 ">
+                <i class="fa-solid fa-tag" style="color: #37c304;"></i>
+                Bank Offer10% Instant Discount on SBI Credit Card Txns, up to ₹1500, on orders of ₹5,000 and aboveT&C
+            </div>
+            <div class="mt-3 ">
+                <i class="fa-solid fa-tag" style="color: #37c304;"></i>
+                Bank Offer10% Instant Discount on SBI Credit Card Txns, up to ₹1500, on orders of ₹5,000 and aboveT&C
+            </div>
+            <div class="mt-3 ">
+                <i class="fa-solid fa-tag" style="color: #37c304;"></i>
+                Special PriceGet at flat ₹279T&C
+            </div>
+            <div class="ms-3 text-primary">+5 more offers</div>
+
+        </div>
+    </div>
+
+
+
+
+    </div>
+</div>
+<!--nextrow-->
+
+<div class="mt-5 ">
+    <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center display-4 fw-bold text-white  ">
+            RELATED PRODUCTS
+        </div>
+    </div>
+</div>
+
+
+<div class="space">
+    <div class="row " id="slide_first">
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-auto col-sm-12 ">
+            <div class="product_featured border-2  ">
+                <div class="messi_jersey "><a href="#"> <img class="messi_jersey_img" src="../../IMAGES/arg_polo_neck_nike.webp"></a></div>
+                <div class="product_footer">
+                <div class=" fw-bold text">Nike</div>
+                <div class="">Men Topography Polo Neck....</div>
+                <span>$286</span><span class="over ms-3 text-secondary ">799</span>
+                <span class="text-success ms-1 ">56% off</span>
+                <div class="bg-primary mt-2"><a href="../../HTML/CART/cart.html" class="add_cart d-flex justify-content-center ">
+                    <small >Add to cart</small></a></div>
+                </div>
+                </div>
+        </div>
+
+        <div class="col-lg-auto col-sm-12 ">
+            <div class="product_featured border-2  ">
+                <div class="messi_jersey "><a href="#"> <img class="messi_jersey_img" src="../../IMAGES/barca_jerser_pedri.webp"></a></div>
+                <div class="product_footer">
+                <div class=" fw-bold text">Nike</div>
+                <div class="">Men Topography Polo Neck....</div>
+                <span>$286</span><span class="over ms-3 text-secondary ">799</span>
+                <span class="text-success ms-1 ">56% off</span>
+                <div class="bg-primary mt-2"><a href="../../HTML/CART/cart.html" class="add_cart d-flex justify-content-center ">
+                    <small >Add to cart</small></a></div>
+                </div>
+                </div>
+        </div>
+
+        <div class="col-lg-auto col-sm-12 ">
+            <div class="product_featured border-2  ">
+                <div class="messi_jersey "><a href="#"> <img class="messi_jersey_img" src="../../IMAGES/manu_rono.webp"></a></div>
+                <div class="product_footer">
+                <div class=" fw-bold text">Nike</div>
+                <div class="">Men Topography Polo Neck....</div>
+                <span>$286</span><span class="over ms-3 text-secondary ">799</span>
+                <span class="text-success ms-1 ">56% off</span>
+                <div class="bg-primary mt-2"><a href="../../HTML/CART/cart.html" class="add_cart d-flex justify-content-center ">
+                    <small >Add to cart</small></a></div>
+                </div>
+                </div>
+        </div>
+
+        <div class="col-lg-auto col-sm-12 ">
+            <div class="product_featured border-2  ">
+                <div class="messi_jersey "><a href="#"> <img class="messi_jersey_img" src="../../IMAGES/realmadrid_jersey.webp"></a></div>
+                <div class="product_footer">
+                <div class=" fw-bold text">Nike</div>
+                <div class="">Men Topography Polo Neck....</div>
+                <span>$286</span><span class="over ms-3 text-secondary ">799</span>
+                <span class="text-success ms-1 ">56% off</span>
+                <div class="bg-primary mt-2"><a href="../../HTML/CART/cart.html" class="add_cart d-flex justify-content-center ">
+                    <small >Add to cart</small></a></div>
+                </div>
+                </div>
+        </div>
+
+        
+        <div class="col-lg-auto col-sm-12 ">
+            <div class="product_featured border-2  ">
+                <div class="messi_jersey "><a href="#"> <img class="messi_jersey_img" src="../../IMAGES/mancity_jersey.webp"></a></div>
+                <div class="product_footer">
+                <div class=" fw-bold text">Nike</div>
+                <div class="">Men Topography Polo Neck....</div>
+                <span>$286</span><span class="over ms-3 text-secondary ">799</span>
+                <span class="text-success ms-1 ">56% off</span>
+                <div class="bg-primary mt-2"><a href="../../HTML/CART/cart.html" class="add_cart d-flex justify-content-center ">
+                    <small >Add to cart</small></a></div>
+                </div>
+                </div>
+        </div>
+
+    </div>
+     </div>
+    
+<!--nextrow-->
+
+<div class="space text-white  ">
+    <div class="row ">
+        <div class="col-lg-auto  ">
+    
+        </div>
+    
+        <div class="col-lg-4 col-sm-12 d-flex flex-column  align-items-center gap-2  ">
+            <div class="display-4 fw-bold mt-5">Customer</div>
+            <div class="display-4 fw-bold ">Reviews</div>
+        </div>
+    
+        <div class="col-lg-3 col-sm-12">
+            <div class="">
+                <i class="fa-solid fa-star " style="color: #a48104;"></i>
+                <i class="fa-solid fa-star " style="color: #a48104;"></i>
+                <i class="fa-solid fa-star " style="color: #a48104;"></i>
+                <i class="fa-solid fa-star " style="color: #a48104;"></i>
+                <i class="fa-solid fa-star " style="color: #a48104;"></i>
+            </div>
+            <div class="toalign ">
+                “I recently purchased a pair of running shoes from N-SPORTS online store and I couldn’t be happier with my purchase. The website was easy to navigate and the checkout process was quick and seamless. The shoes arrived within a week and were exactly what I was looking for. I would definitely recommend N-SPORTS online store to anyone looking for quality athletic gear.” 
+            </div>
+            <div class="mt-1 fw-bold ">Sreeram kk, Palakkad</div>
+        </div>
+        <div class="col-lg-auto  ">
+    
+        </div>
+        <div class="col-lg-auto  ">
+    
+        </div>
+        <div class="col-lg-3 col-sm-12">
+            <div class="">
+                <i class="fa-solid fa-star " style="color: #a48104;"></i>
+                <i class="fa-solid fa-star " style="color: #a48104;"></i>
+                <i class="fa-solid fa-star " style="color: #a48104;"></i>
+                <i class="fa-solid fa-star " style="color: #a48104;"></i>
+                <i class="fa-solid fa-star " style="color: #a48104;"></i>
+            </div>
+            <div class="toalign  ">
+                “I recently purchased a pair of running shoes from N-SPORTS online store and I couldn’t be happier with my purchase. The website was easy to navigate and the checkout process was quick and seamless. The shoes arrived within a week and were exactly what I was looking for. I would definitely recommend N-SPORTS online store to anyone looking for quality athletic gear.” 
+            </div>
+            <div class="mt-1 fw-bold ">Sreeram kk, Palakkad</div>
+        </div>
+        
+        <div class="col-lg-1 col-sm-12">
+    
+        </div>
+    </div>
+    </div>
+
+    <!--next row-->
+
+
+<div class="space">
+    <div class="newsletter  bg-secondary ">
+    
+    <div class="row pt-5 ">
+        <div class="col-lg-1 col-sm-12">
+    
+        </div>
+        <div class="col fs-1  ">
+           <div class="mt-5 ">JOIN OUR NEWSLETTER</div>
+        </div>
+    </div>
+    
+    <div class="row mt-5 ">
+        <div class="col-lg-1 ">
+    
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="">
+                <input  class="email bg-secondary " type="email" placeholder="YOUR EMAIL">
+            </div>
+        </div>
+    
+        <div class="col">
+            <div >
+                <a class="subscribe fs-5 fw-bold text-dark " href="#"><small >Subscribe</small></a>
+             </div>
+        </div>
+    </div>
+    
+    <div class="row mt-3 ">
+        <div class="col-lg-1 ">
+    
+        </div>
+    
+        <div class="col d-flex ">
+            <div class="me-4 "><i class="fa-brands fa-facebook fa-lg"  style="color: #000205;"></i></div>
+            <div class="me-4 "><i class="fa-brands fa-square-instagram fa-lg" style="color: #01060e;"></i></div>
+            <div class="me-4 "><i class="fa-brands fa-twitter fa-lg" style="color: #000000;"></i></div>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="footer mt-4 pb-4 ">
+    <div class="row  text-white ">
+        <div class="col-lg-1">
+    
+        </div>
+        <div class="col text-white ">
+           <small> <i class="fa-solid fa-copyright" style="color: #f7f7f8;"></i>
+            2023 All Rights Reserved
+           </small>
+        </div>
+    
+        <div class="col-lg-6">
+    
+        </div>
+        <div class="col-lg-auto col-sm-12">
+            <a href="#" class="text-decoration-none text-white "> Help&Info</a>
+        </div>
+        <div class="col-lg-auto col-sm-12">
+            <a href="#"  class="text-decoration-none text-white "> Terms&Privacy</a>
+        </div>
+        <div class="col-lg-auto ">
+    
+        </div>
+    
+    </div>
+    </div>
+
+</div>
+
+<script src="../../JS/singleproduct.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
